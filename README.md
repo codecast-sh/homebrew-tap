@@ -6,7 +6,7 @@
 brew install codecast-sh/tap/codecast
 ```
 
-Installs the `codecast` and `cast` commands. The formula is updated automatically on every CLI release and installs the same signed binary as the other channels.
+Installs the `codecast` and `cast` commands. The formula is updated automatically on every CLI release and installs the same binary as every other install channel, verified by SHA-256 checksum.
 
 - Website: https://codecast.sh
 - Documentation: https://codecast.sh/documentation
