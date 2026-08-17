@@ -1,26 +1,26 @@
 class Codecast < Formula
   desc "See, steer, and remember every coding agent session"
   homepage "https://codecast.sh"
-  version "1.1.107"
+  version "1.1.108"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.107/codecast-darwin-arm64"
-      sha256 "597548c072e7544e22e0b585aeebd141324f930f2e98635df550dba39862e8eb"
+      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.108/codecast-darwin-arm64"
+      sha256 "588bb55c4da07bbb66877cdf7f43b5c39521c9a38fd68f193b7c56b52a2b0886"
     else
-      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.107/codecast-darwin-x64"
-      sha256 "9b73258c807eef15da17fd88815d8f915587a62c40c4e247def108bc04b0514e"
+      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.108/codecast-darwin-x64"
+      sha256 "4459249c60df77bfa61bec9997428e2533317c5489cf2ff9838dceacfc095e07"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.107/codecast-linux-arm64"
-      sha256 "cbe8702a7574877379b69e070c7d423433baac26dd54c8e971b0fc94589f1ef0"
+      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.108/codecast-linux-arm64"
+      sha256 "45d922b19669e48dc18b0db1f891266fc2bd887debb7da75bbfeda73deb5d1e2"
     else
-      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.107/codecast-linux-x64"
-      sha256 "66b1ab0ebd07bd1b4f2e48aa3502e4ef659d007f535bd13146f85e3dd8185163"
+      url "https://github.com/codecast-sh/codecast/releases/download/v1.1.108/codecast-linux-x64"
+      sha256 "dfb6506cff85f1eb0c12cb72c9ac832d0e733e71d9c1332ff2aa6e5cab0ba96c"
     end
   end
 
